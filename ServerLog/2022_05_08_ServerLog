@@ -1,0 +1,72 @@
+2022-05-08 13:20:35.677907 [info]: timer tick
+2022-05-08 13:20:40.678145 [info]: timer tick
+2022-05-08 13:20:45.678284 [info]: timer tick
+2022-05-08 13:20:50.678406 [info]: timer tick
+2022-05-08 13:20:55.678526 [info]: timer tick
+2022-05-08 13:20:58.109473 [info]: deal with the client(175.152.118.153)
+2022-05-08 13:20:58.109541 [info]: adjust timer once
+2022-05-08 13:20:58.109591 [info]: GET / HTTP/1.1
+2022-05-08 13:20:58.109603 [info]: Host: 43.155.103.171:9006
+2022-05-08 13:20:58.109611 [info]: Connection: keep-alive
+2022-05-08 13:20:58.109617 [info]: Cache-Control: max-age=0
+2022-05-08 13:20:58.109624 [info]: oop!unknow header: Cache-Control: max-age=0
+2022-05-08 13:20:58.109630 [info]: Upgrade-Insecure-Requests: 1
+2022-05-08 13:20:58.109637 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2022-05-08 13:20:58.109644 [info]: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+2022-05-08 13:20:58.109651 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+2022-05-08 13:20:58.109659 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2022-05-08 13:20:58.109666 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2022-05-08 13:20:58.109672 [info]: Accept-Encoding: gzip, deflate
+2022-05-08 13:20:58.109680 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2022-05-08 13:20:58.109686 [info]: Accept-Language: zh-CN,zh;q=0.9
+2022-05-08 13:20:58.109693 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9
+2022-05-08 13:20:58.109698 [info]: 
+2022-05-08 13:20:58.109719 [info]: request:HTTP/1.1 200 OK
+
+2022-05-08 13:20:58.109726 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2022-05-08 13:20:58.109730 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2022-05-08 13:20:58.109734 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2022-05-08 13:20:58.109788 [info]: send data to the client(175.152.118.153)
+2022-05-08 13:20:58.109805 [info]: adjust timer once
+2022-05-08 13:20:58.483891 [info]: deal with the client(175.152.118.153)
+2022-05-08 13:20:58.483955 [info]: adjust timer once
+2022-05-08 13:20:58.484005 [info]: GET /favicon.ico HTTP/1.1
+2022-05-08 13:20:58.484096 [info]: Host: 43.155.103.171:9006
+2022-05-08 13:20:58.484104 [info]: Connection: keep-alive
+2022-05-08 13:20:58.484113 [info]: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+2022-05-08 13:20:58.484120 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+2022-05-08 13:20:58.484127 [info]: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2022-05-08 13:20:58.484133 [info]: oop!unknow header: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2022-05-08 13:20:58.484141 [info]: Referer: http://43.155.103.171:9006/
+2022-05-08 13:20:58.484146 [info]: oop!unknow header: Referer: http://43.155.103.171:9006/
+2022-05-08 13:20:58.484153 [info]: Accept-Encoding: gzip, deflate
+2022-05-08 13:20:58.484159 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2022-05-08 13:20:58.484166 [info]: Accept-Language: zh-CN,zh;q=0.9
+2022-05-08 13:20:58.484173 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9
+2022-05-08 13:20:58.484179 [info]: 
+2022-05-08 13:20:58.484204 [info]: request:HTTP/1.1 200 OK
+
+2022-05-08 13:20:58.484269 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2022-05-08 13:20:58.484275 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2022-05-08 13:20:58.484281 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2022-05-08 13:20:58.484451 [info]: send data to the client(175.152.118.153)
+2022-05-08 13:20:58.484493 [info]: adjust timer once
+2022-05-08 13:21:00.678705 [info]: timer tick
