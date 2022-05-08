@@ -13,14 +13,6 @@ Linux下C++轻量级Web服务器
 
 快速运行
 ------------
-* 服务器测试环境
-	* Ubuntu版本16.04
-	* MySQL版本5.7.29
-* 浏览器测试环境
-	* Windows、Linux均可
-	* Chrome
-	* FireFox
-	* 其他浏览器暂无测试
 
 * 测试前确认已安装MySQL数据库
 
