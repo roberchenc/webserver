@@ -132,7 +132,7 @@ void http_conn::init(int sockfd, const sockaddr_in &addr, char *root, int TRIGMo
 }
 
 //初始化新接受的连接
-//check_state默认为分析请求行状态
+// check_state默认为分析请求行状态
 void http_conn::init()
 {
     mysql = NULL;
@@ -203,7 +203,7 @@ bool http_conn::read_once()
     }
     int bytes_read = 0;
 
-    //LT读取数据
+    // LT读取数据
     if (0 == m_TRIGMode)
     {
         bytes_read = recv(m_sockfd, m_read_buf + m_read_idx, READ_BUFFER_SIZE - m_read_idx, 0);
@@ -216,7 +216,7 @@ bool http_conn::read_once()
 
         return true;
     }
-    //ET读数据
+    // ET读数据
     else
     {
         while (true)
@@ -332,7 +332,7 @@ http_conn::HTTP_CODE http_conn::parse_content(char *text)
     if (m_read_idx >= (m_content_length + m_checked_idx))
     {
         text[m_content_length] = '\0';
-        //POST请求中最后为输入的用户名和密码
+        // POST请求中最后为输入的用户名和密码
         m_string = text;
         return GET_REQUEST;
     }
@@ -389,7 +389,7 @@ http_conn::HTTP_CODE http_conn::do_request()
 {
     strcpy(m_real_file, doc_root);
     int len = strlen(doc_root);
-    //printf("m_url:%s\n", m_url);
+    // printf("m_url:%s\n", m_url);
     const char *p = strrchr(m_url, '/');
 
     //处理cgi
@@ -406,7 +406,7 @@ http_conn::HTTP_CODE http_conn::do_request()
         free(m_url_real);
 
         //将用户名和密码提取出来
-        //user=123&passwd=123
+        // user=123&passwd=123
         char name[100], password[100];
         int i;
         for (i = 5; m_string[i] != '&'; ++i)

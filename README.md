@@ -115,5 +115,4 @@ Linux下C++轻量级Web服务器
 * 日志文件放到ServerLog目录下
 
 
-本项目参考自TinyWebServer
-https://github.com/qinguoyi/TinyWebServer.git
+[本项目参考自TinyWebServer](https://github.com/qinguoyi/TinyWebServer.git)
