@@ -49,7 +49,7 @@ void WebServer::trig_mode()
     //LT + LT
     if (0 == m_TRIGMode)
     {
-        m_LISTENTrigmode = 0;
+        m_LISTENTrigmode = 0;                    
         m_CONNTrigmode = 0;
     }
     //LT + ET

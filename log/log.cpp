@@ -116,7 +116,7 @@ void Log::write_log(int level, const char *format, ...)
         }
         else
         {
-            snprintf(new_log, 255, "%s%s%s.%lld", dir_name, tail, log_name, m_count / m_split_lines);
+            snprintf(new_log, 255, "%s/%s%s.%lld", dir_name, tail, log_name, m_count / m_split_lines);
         }
         m_fp = fopen(new_log, "a");
     }
